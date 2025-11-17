@@ -45,17 +45,17 @@ filter = "a", este debe devolver 19, ya que en la segunda oración "¿Cómo est�
 el valor pasado como filtro y la oración tiene una longitud de la cadena de texto más larga. 
 """
 # Add your imports here
-
-
+from util_package import text_manager 
+from util_package.text_manager import TEXT, is_newline, is_space, remove_punctuation_marks
 
 def find_largest_word(text):
     # Write here your code
-    pass
-
+    pass                
 
 def is_palindrome_word(word):
     # Write here your code
     pass
+    
 
 
 def count_palindrome_words(text):
@@ -75,4 +75,4 @@ def find_size_largest_sentence(text, filter):
 #print("'a' es un palíndromo su resultado es:", is_palindrome_word("a"))
 #print("'Ababa' es palíndromo su resultado es:", is_palindrome_word("Ababa"))
 #print("El número de palabras identificadas como palíndromos es:", count_palindrome_words(TEXT))
-#print("El tamaño de la oración más larga con el filtro='a', es :", find_size_largest_sentence(TEXT, filter="a"))
+#print("El tamaño de la oración más larga con el filtro='a', es :", find_size_largest_sentence(TEXT, "melon"))
