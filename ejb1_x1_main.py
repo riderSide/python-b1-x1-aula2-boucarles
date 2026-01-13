@@ -138,5 +138,3 @@ def find_size_largest_sentence(text, filter):
 #print("'Ababa' es palíndromo su resultado es:", is_palindrome_word("Ababa"))
 #print("El número de palabras identificadas como palíndromos es:", count_palindrome_words(TEXT))
 #print("El tamaño de la oración más larga con el filtro='a', es :", find_size_largest_sentence(TEXT, "melon"))
-
-print("El tamaño de la oración más larga con el filtro='a', es :", find_size_largest_sentence(TEXT, "a"))
